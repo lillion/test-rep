@@ -1,2 +1,2 @@
-test-rep
-========
+Test repository for R functions
+===============================
