@@ -31,7 +31,6 @@ multibar <- function(x, variables, labels, xlab = "Antworten",
 	if(class(x)!="data.frame") stop("x is not a Dataframe")
 	if(missing(variables)) variables=1:length(x)
 	if (!missing(labels)) { if(is.character(labels) & length(variables)==length(labels)) {
-		#print("hello")
 		ll <- labels
 	} else {
 		cat("Labels don't correspond to variables\n")
